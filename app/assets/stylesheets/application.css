@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+@charset "UTF-8";
+/* ブラウザがそれぞれ持っているCSSをリセットするため */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+html{
+	padding: 20px;
+}
+
+h2{
+	margin: 0 auto;
+}
+.contents th{
+	font-weight: lighter;
+}
+#notice{
+	color: green;
+}
+.alert {
+    color:#262626;
+    padding: 20px;
+    background:#FFEBE8;
+    border:2px solid #990000;
+    padding: 10px 20px;
+    font-weight:850;
+    width: 30%;
+ }
+ .alert li{
+ 	font-size: 12px;
+ }
